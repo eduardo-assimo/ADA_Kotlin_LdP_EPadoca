@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32b0db9-ed58-4d84-942a-7f60980db92e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioEPadoca.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DesafioEPadoca.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/refactoring/objetos/comanda/Comanda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/refactoring/objetos/comanda/ItemComanda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/refactoring/objetos/menu/ItemMenu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/refactoring/objetos/menu/Menu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/refactoring/programa/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/refactoring/programa/MenuInitializer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DesafioEPadoca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/original/DesafioEPadoca.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -31,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2I3UxsyYxopQ194nAHBh8tPb8VW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,9 +43,35 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/EDUARDO/workspace/LetsCodeSantanderCoders/Kotlin_Mobile/MB-KT-001 Lógica de Programação/DesafioEPadoca"
+    "last_opened_file_path": "C:/Users/EDUARDO/workspace/LetsCodeSantanderCoders/Kotlin_Mobile/MB-KT-001 Lógica de Programação/DesafioEPadoca/src/main/kotlin/refactoring"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\EDUARDO\workspace\LetsCodeSantanderCoders\Kotlin_Mobile\MB-KT-001 Lógica de Programação\DesafioEPadoca\src\main\kotlin\refactoring" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="refactoring.objetos.menu" />
+      <recent name="refactoring.objetos.comanda" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="refactoring" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="refactoring.programa.MainKt" />
+      <module name="DesafioEPadoca" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
